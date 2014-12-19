@@ -15,7 +15,7 @@ public abstract class Card {
 	 * @param   location    the location for the card to be summoned at
 	 * @return              a boolean indicating whether the summon was successful
 	 */
-	public abstract boolean summon(/*Player user, Field field,*/Position location);
+	public abstract boolean summon(Account user,/* Field field,*/Position location);
 	/*??? unsure if boolean is the proper return type?
 	If done this way summon can decide whether or not the action is successful*/
 }
